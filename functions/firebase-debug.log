@@ -1,0 +1,527 @@
+[debug] [2024-01-02T16:27:04.384Z] ----------------------------------------------------------------------
+[debug] [2024-01-02T16:27:04.387Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\bahri\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2024-01-02T16:27:04.387Z] CLI Version:   13.0.2
+[debug] [2024-01-02T16:27:04.388Z] Platform:      win32
+[debug] [2024-01-02T16:27:04.388Z] Node Version:  v18.18.1
+[debug] [2024-01-02T16:27:04.390Z] Time:          Tue Jan 02 2024 11:27:04 GMT-0500 (Eastern Standard Time)
+[debug] [2024-01-02T16:27:04.390Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-01-02T16:27:04.562Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-01-02T16:27:04.563Z] > authorizing via signed-in user (sakinahaman@gmail.com)
+[info] i  emulators: Starting emulators: functions {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions"}}
+[debug] [2024-01-02T16:27:04.614Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[warn] !  ui: Emulator UI unable to start on port 4000, starting on 4013 instead. {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI unable to start on port 4000, starting on 4013 instead."}}
+[debug] [2024-01-02T16:27:04.625Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4013},{"address":"::1","family":"IPv6","port":4013}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2024-01-02T16:27:04.659Z] [hub] writing locator at C:\Users\bahri\AppData\Local\Temp\hub-fir-9c3d6.json
+[debug] [2024-01-02T16:27:05.506Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-01-02T16:27:05.507Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-01-02T16:27:05.507Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4013},{"address":"::1","family":"IPv6","port":4013}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, hosting, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, hosting, pubsub, storage\u001b[22m"}}
+[debug] [2024-01-02T16:27:05.514Z] defaultcredentials: writing to file C:\Users\bahri\AppData\Roaming\firebase\sakinahaman_gmail_com_application_default_credentials.json
+[debug] [2024-01-02T16:27:05.520Z] Setting GAC to C:\Users\bahri\AppData\Roaming\firebase\sakinahaman_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\bahri\\AppData\\Roaming\\firebase\\sakinahaman_gmail_com_application_default_credentials.json"}}
+[debug] [2024-01-02T16:27:05.524Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fir-9c3d6/adminSdkConfig [none]
+[debug] [2024-01-02T16:27:06.214Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fir-9c3d6/adminSdkConfig 200
+[debug] [2024-01-02T16:27:06.214Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fir-9c3d6/adminSdkConfig {"projectId":"fir-9c3d6","storageBucket":"fir-9c3d6.appspot.com"}
+[debug] [2024-01-02T16:27:06.295Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2024-01-02T16:27:06.296Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2024-01-02T16:27:06.296Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\bahri\\.cache\\firebase\\emulators\\ui-v1.11.7\\server\\server.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\bahri\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.11.7\\\\server\\\\server.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2024-01-02T16:27:06.653Z] Web / API server started at 127.0.0.1:4013
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4013\n"}}
+[debug] [2024-01-02T16:27:06.653Z] Web / API server started at ::1:4013
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at ::1:4013\n"}}
+[info] i  functions: Watching "C:\Users\bahri\OneDrive\Desktop\EVANGADI\phase 3\AmazonProject\Amazon-app\amazon-app\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\Users\\bahri\\OneDrive\\Desktop\\EVANGADI\\phase 3\\AmazonProject\\Amazon-app\\amazon-app\\functions\" for Cloud Functions..."}}
+[debug] [2024-01-02T16:27:06.880Z] Validating nodejs source
+[debug] [2024-01-02T16:27:10.548Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^14.9.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2024-01-02T16:27:10.549Z] Building nodejs source
+[debug] [2024-01-02T16:27:10.550Z] Failed to find version of module node: reached end of search path C:\Users\bahri\OneDrive\Desktop\EVANGADI\phase 3\AmazonProject\Amazon-app\amazon-app\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2024-01-02T16:27:10.556Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-01-02T16:27:10.577Z] Found firebase-functions binary at 'C:\Users\bahri\OneDrive\Desktop\EVANGADI\phase 3\AmazonProject\Amazon-app\amazon-app\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8066
+
+[info] connected @ 2020
+
+[debug] [2024-01-02T16:27:12.692Z] Got response from /__/functions.yaml {"endpoints":{},"specVersion":"v1alpha1","requiredAPIs":[]}
+[info] +  functions: Loaded functions definitions from source: . {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: ."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4013/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌───────────┬────────────────┬─────────────────────────────────┐
+│ Emulator  │ Host:Port      │ View in Emulator UI             │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Functions │ 127.0.0.1:5001 │ http://127.0.0.1:4013/functions │
+└───────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2024-01-02T17:03:47.333Z] File C:\Users\bahri\OneDrive\Desktop\EVANGADI\phase 3\AmazonProject\Amazon-app\amazon-app\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\bahri\\OneDrive\\Desktop\\EVANGADI\\phase 3\\AmazonProject\\Amazon-app\\amazon-app\\functions\\index.js changed, reloading triggers"}}
+[debug] [2024-01-02T17:03:48.341Z] Validating nodejs source
+[debug] [2024-01-02T17:03:57.356Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^14.9.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2024-01-02T17:03:57.357Z] Building nodejs source
+[debug] [2024-01-02T17:03:57.358Z] Failed to find version of module node: reached end of search path C:\Users\bahri\OneDrive\Desktop\EVANGADI\phase 3\AmazonProject\Amazon-app\amazon-app\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2024-01-02T17:03:57.372Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-01-02T17:03:57.393Z] Found firebase-functions binary at 'C:\Users\bahri\OneDrive\Desktop\EVANGADI\phase 3\AmazonProject\Amazon-app\amazon-app\functions\node_modules\.bin\firebase-functions'
+[debug] [2024-01-02T17:03:57.413Z] File C:\Users\bahri\OneDrive\Desktop\EVANGADI\phase 3\AmazonProject\Amazon-app\amazon-app\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\bahri\\OneDrive\\Desktop\\EVANGADI\\phase 3\\AmazonProject\\Amazon-app\\amazon-app\\functions\\index.js changed, reloading triggers"}}
+[debug] [2024-01-02T17:03:58.418Z] Validating nodejs source
+[debug] [2024-01-02T17:04:05.384Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^14.9.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2024-01-02T17:04:05.385Z] Building nodejs source
+[debug] [2024-01-02T17:04:05.385Z] Failed to find version of module node: reached end of search path C:\Users\bahri\OneDrive\Desktop\EVANGADI\phase 3\AmazonProject\Amazon-app\amazon-app\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[info] Serving at port 8960
+
+[debug] [2024-01-02T17:04:05.397Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-01-02T17:04:05.417Z] Found firebase-functions binary at 'C:\Users\bahri\OneDrive\Desktop\EVANGADI\phase 3\AmazonProject\Amazon-app\amazon-app\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8499
+
+[info] listenig 10000
+
+[error] node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::10000
+    at Server.setupListenHandle [as _listen2] (node:net:1817:16)
+    at listenInCluster (node:net:1865:12)
+    at Server.listen (node:net:1953:7)
+    at Function.listen (C:\Users\bahri\OneDrive\Desktop\EVANGADI\phase 3\AmazonProject\Amazon-app\amazon-app\functions\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (C:\Users\bahri\OneDrive\Desktop\EVANGADI\phase 3\AmazonProject\Amazon-app\amazon-app\functions\index.js:29:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1844:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 10000
+}
+
+[error] 
+Node.js v18.18.1
+
+[debug] [2024-01-02T17:04:08.799Z] Failed to call quitquitquit. This often means the server failed to start request to http://localhost:8499/__/quitquitquit failed, reason: connect ECONNREFUSED ::1:8499 {"message":"request to http://localhost:8499/__/quitquitquit failed, reason: connect ECONNREFUSED ::1:8499","type":"system","errno":"ECONNREFUSED","code":"ECONNREFUSED"}
+[error] !!  functions: Failed to load function definition from source: FetchError: request to http://127.0.0.1:8499/__/functions.yaml failed, reason: read ECONNRESET {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FetchError: request to http://127.0.0.1:8499/__/functions.yaml failed, reason: read ECONNRESET"}}
+[error] !!  functions: Failed to load function definition from source: FirebaseError: User code failed to load. Cannot determine backend specification {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: User code failed to load. Cannot determine backend specification"}}
+[debug] [2024-01-02T17:04:19.155Z] File C:\Users\bahri\OneDrive\Desktop\EVANGADI\phase 3\AmazonProject\Amazon-app\amazon-app\functions\package.json changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\bahri\\OneDrive\\Desktop\\EVANGADI\\phase 3\\AmazonProject\\Amazon-app\\amazon-app\\functions\\package.json changed, reloading triggers"}}
+[debug] [2024-01-02T17:04:20.167Z] Validating nodejs source
+[debug] [2024-01-02T17:04:26.936Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^14.9.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2024-01-02T17:04:26.937Z] Building nodejs source
+[debug] [2024-01-02T17:04:26.937Z] Failed to find version of module node: reached end of search path C:\Users\bahri\OneDrive\Desktop\EVANGADI\phase 3\AmazonProject\Amazon-app\amazon-app\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2024-01-02T17:04:26.944Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-01-02T17:04:26.967Z] Found firebase-functions binary at 'C:\Users\bahri\OneDrive\Desktop\EVANGADI\phase 3\AmazonProject\Amazon-app\amazon-app\functions\node_modules\.bin\firebase-functions'
+[debug] [2024-01-02T17:04:27.009Z] File C:\Users\bahri\OneDrive\Desktop\EVANGADI\phase 3\AmazonProject\Amazon-app\amazon-app\functions\package.json changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\bahri\\OneDrive\\Desktop\\EVANGADI\\phase 3\\AmazonProject\\Amazon-app\\amazon-app\\functions\\package.json changed, reloading triggers"}}
+[debug] [2024-01-02T17:04:28.041Z] Validating nodejs source
+[debug] [2024-01-02T17:04:37.616Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^14.9.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2024-01-02T17:04:37.617Z] Building nodejs source
+[debug] [2024-01-02T17:04:37.617Z] Failed to find version of module node: reached end of search path C:\Users\bahri\OneDrive\Desktop\EVANGADI\phase 3\AmazonProject\Amazon-app\amazon-app\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2024-01-02T17:04:37.621Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-01-02T17:04:37.645Z] Found firebase-functions binary at 'C:\Users\bahri\OneDrive\Desktop\EVANGADI\phase 3\AmazonProject\Amazon-app\amazon-app\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8171
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: User code failed to load. Cannot determine backend specification {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: User code failed to load. Cannot determine backend specification"}}
+[info] Serving at port 8680
+
+[error] node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::10000
+    at Server.setupListenHandle [as _listen2] (node:net:1817:16)
+    at listenInCluster (node:net:1865:12)
+    at Server.listen (node:net:1953:7)
+    at Function.listen (C:\Users\bahri\OneDrive\Desktop\EVANGADI\phase 3\AmazonProject\Amazon-app\amazon-app\functions\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (C:\Users\bahri\OneDrive\Desktop\EVANGADI\phase 3\AmazonProject\Amazon-app\amazon-app\functions\index.js:29:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1844:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 10000
+}
+
+Node.js v18.18.1
+
+[debug] [2024-01-02T17:04:40.085Z] Failed to call quitquitquit. This often means the server failed to start request to http://localhost:8680/__/quitquitquit failed, reason: connect ECONNREFUSED ::1:8680 {"message":"request to http://localhost:8680/__/quitquitquit failed, reason: connect ECONNREFUSED ::1:8680","type":"system","errno":"ECONNREFUSED","code":"ECONNREFUSED"}
+[error] !!  functions: Failed to load function definition from source: FetchError: request to http://127.0.0.1:8680/__/functions.yaml failed, reason: read ECONNRESET {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FetchError: request to http://127.0.0.1:8680/__/functions.yaml failed, reason: read ECONNRESET"}}
+[debug] [2024-01-02T17:04:55.396Z] File C:\Users\bahri\OneDrive\Desktop\EVANGADI\phase 3\AmazonProject\Amazon-app\amazon-app\functions\package.json changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\bahri\\OneDrive\\Desktop\\EVANGADI\\phase 3\\AmazonProject\\Amazon-app\\amazon-app\\functions\\package.json changed, reloading triggers"}}
+[debug] [2024-01-02T17:04:56.402Z] Validating nodejs source
+[debug] [2024-01-02T17:05:04.481Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^14.9.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2024-01-02T17:05:04.481Z] Building nodejs source
+[debug] [2024-01-02T17:05:04.482Z] Failed to find version of module node: reached end of search path C:\Users\bahri\OneDrive\Desktop\EVANGADI\phase 3\AmazonProject\Amazon-app\amazon-app\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2024-01-02T17:05:04.485Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-01-02T17:05:04.504Z] Found firebase-functions binary at 'C:\Users\bahri\OneDrive\Desktop\EVANGADI\phase 3\AmazonProject\Amazon-app\amazon-app\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8949
+
+[error] node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::10000
+    at Server.setupListenHandle [as _listen2] (node:net:1817:16)
+    at listenInCluster (node:net:1865:12)
+    at Server.listen (node:net:1953:7)
+    at Function.listen (C:\Users\bahri\OneDrive\Desktop\EVANGADI\phase 3\AmazonProject\Amazon-app\amazon-app\functions\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (C:\Users\bahri\OneDrive\Desktop\EVANGADI\phase 3\AmazonProject\Amazon-app\amazon-app\functions\index.js:29:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1844:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 10000
+}
+
+Node.js v18.18.1
+
+[debug] [2024-01-02T17:05:06.451Z] Failed to call quitquitquit. This often means the server failed to start request to http://localhost:8949/__/quitquitquit failed, reason: connect ECONNREFUSED ::1:8949 {"message":"request to http://localhost:8949/__/quitquitquit failed, reason: connect ECONNREFUSED ::1:8949","type":"system","errno":"ECONNREFUSED","code":"ECONNREFUSED"}
+[error] !!  functions: Failed to load function definition from source: FetchError: request to http://127.0.0.1:8949/__/functions.yaml failed, reason: read ECONNRESET {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FetchError: request to http://127.0.0.1:8949/__/functions.yaml failed, reason: read ECONNRESET"}}
+[debug] [2024-01-02T17:07:31.231Z] File C:\Users\bahri\OneDrive\Desktop\EVANGADI\phase 3\AmazonProject\Amazon-app\amazon-app\functions\package.json changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\bahri\\OneDrive\\Desktop\\EVANGADI\\phase 3\\AmazonProject\\Amazon-app\\amazon-app\\functions\\package.json changed, reloading triggers"}}
+[debug] [2024-01-02T17:07:32.047Z] File C:\Users\bahri\OneDrive\Desktop\EVANGADI\phase 3\AmazonProject\Amazon-app\amazon-app\functions\package-lock.json changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\bahri\\OneDrive\\Desktop\\EVANGADI\\phase 3\\AmazonProject\\Amazon-app\\amazon-app\\functions\\package-lock.json changed, reloading triggers"}}
+[debug] [2024-01-02T17:07:32.153Z] File C:\Users\bahri\OneDrive\Desktop\EVANGADI\phase 3\AmazonProject\Amazon-app\amazon-app\functions\package-lock.json changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\bahri\\OneDrive\\Desktop\\EVANGADI\\phase 3\\AmazonProject\\Amazon-app\\amazon-app\\functions\\package-lock.json changed, reloading triggers"}}
+[debug] [2024-01-02T17:07:33.190Z] Validating nodejs source
+[debug] [2024-01-02T17:07:40.687Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^14.9.0"
+  },
+  "private": true
+}
+[debug] [2024-01-02T17:07:40.687Z] Building nodejs source
+[debug] [2024-01-02T17:07:40.688Z] Failed to find version of module node: reached end of search path C:\Users\bahri\OneDrive\Desktop\EVANGADI\phase 3\AmazonProject\Amazon-app\amazon-app\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2024-01-02T17:07:40.694Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-01-02T17:07:40.715Z] Found firebase-functions binary at 'C:\Users\bahri\OneDrive\Desktop\EVANGADI\phase 3\AmazonProject\Amazon-app\amazon-app\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8892
+
+[error] node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::10000
+    at Server.setupListenHandle [as _listen2] (node:net:1817:16)
+    at listenInCluster (node:net:1865:12)
+    at Server.listen (node:net:1953:7)
+    at Function.listen (C:\Users\bahri\OneDrive\Desktop\EVANGADI\phase 3\AmazonProject\Amazon-app\amazon-app\functions\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (C:\Users\bahri\OneDrive\Desktop\EVANGADI\phase 3\AmazonProject\Amazon-app\amazon-app\functions\index.js:29:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1844:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 10000
+}
+
+Node.js v18.18.1
+
+[debug] [2024-01-02T17:07:42.758Z] Failed to call quitquitquit. This often means the server failed to start request to http://localhost:8892/__/quitquitquit failed, reason: connect ECONNREFUSED ::1:8892 {"message":"request to http://localhost:8892/__/quitquitquit failed, reason: connect ECONNREFUSED ::1:8892","type":"system","errno":"ECONNREFUSED","code":"ECONNREFUSED"}
+[error] !!  functions: Failed to load function definition from source: FetchError: request to http://127.0.0.1:8892/__/functions.yaml failed, reason: read ECONNRESET {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FetchError: request to http://127.0.0.1:8892/__/functions.yaml failed, reason: read ECONNRESET"}}
+[debug] [2024-01-02T17:09:25.417Z] File C:\Users\bahri\OneDrive\Desktop\EVANGADI\phase 3\AmazonProject\Amazon-app\amazon-app\functions\package.json changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\bahri\\OneDrive\\Desktop\\EVANGADI\\phase 3\\AmazonProject\\Amazon-app\\amazon-app\\functions\\package.json changed, reloading triggers"}}
+[debug] [2024-01-02T17:09:25.563Z] File C:\Users\bahri\OneDrive\Desktop\EVANGADI\phase 3\AmazonProject\Amazon-app\amazon-app\functions\package-lock.json changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\bahri\\OneDrive\\Desktop\\EVANGADI\\phase 3\\AmazonProject\\Amazon-app\\amazon-app\\functions\\package-lock.json changed, reloading triggers"}}
+[debug] [2024-01-02T17:09:26.642Z] Validating nodejs source
+[debug] [2024-01-02T17:09:34.731Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^14.9.0"
+  },
+  "private": true
+}
+[debug] [2024-01-02T17:09:34.731Z] Building nodejs source
+[debug] [2024-01-02T17:09:34.732Z] Failed to find version of module node: reached end of search path C:\Users\bahri\OneDrive\Desktop\EVANGADI\phase 3\AmazonProject\Amazon-app\amazon-app\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2024-01-02T17:09:34.735Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-01-02T17:09:34.758Z] Found firebase-functions binary at 'C:\Users\bahri\OneDrive\Desktop\EVANGADI\phase 3\AmazonProject\Amazon-app\amazon-app\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8570
+
+[error] node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::10000
+    at Server.setupListenHandle [as _listen2] (node:net:1817:16)
+    at listenInCluster (node:net:1865:12)
+    at Server.listen (node:net:1953:7)
+    at Function.listen (C:\Users\bahri\OneDrive\Desktop\EVANGADI\phase 3\AmazonProject\Amazon-app\amazon-app\functions\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (C:\Users\bahri\OneDrive\Desktop\EVANGADI\phase 3\AmazonProject\Amazon-app\amazon-app\functions\index.js:29:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1844:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 10000
+}
+
+Node.js v18.18.1
+
+[debug] [2024-01-02T17:09:37.136Z] Failed to call quitquitquit. This often means the server failed to start request to http://localhost:8570/__/quitquitquit failed, reason: connect ECONNREFUSED ::1:8570 {"message":"request to http://localhost:8570/__/quitquitquit failed, reason: connect ECONNREFUSED ::1:8570","type":"system","errno":"ECONNREFUSED","code":"ECONNREFUSED"}
+[error] !!  functions: Failed to load function definition from source: FetchError: request to http://127.0.0.1:8570/__/functions.yaml failed, reason: read ECONNRESET {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FetchError: request to http://127.0.0.1:8570/__/functions.yaml failed, reason: read ECONNRESET"}}
+[debug] [2024-01-02T17:10:49.429Z] File C:\Users\bahri\OneDrive\Desktop\EVANGADI\phase 3\AmazonProject\Amazon-app\amazon-app\functions\package.json changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\bahri\\OneDrive\\Desktop\\EVANGADI\\phase 3\\AmazonProject\\Amazon-app\\amazon-app\\functions\\package.json changed, reloading triggers"}}
+[debug] [2024-01-02T17:10:49.705Z] File C:\Users\bahri\OneDrive\Desktop\EVANGADI\phase 3\AmazonProject\Amazon-app\amazon-app\functions\package-lock.json changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\bahri\\OneDrive\\Desktop\\EVANGADI\\phase 3\\AmazonProject\\Amazon-app\\amazon-app\\functions\\package-lock.json changed, reloading triggers"}}
+[debug] [2024-01-02T17:10:49.773Z] File C:\Users\bahri\OneDrive\Desktop\EVANGADI\phase 3\AmazonProject\Amazon-app\amazon-app\functions\package-lock.json changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\bahri\\OneDrive\\Desktop\\EVANGADI\\phase 3\\AmazonProject\\Amazon-app\\amazon-app\\functions\\package-lock.json changed, reloading triggers"}}
+[debug] [2024-01-02T17:10:49.902Z] File C:\Users\bahri\OneDrive\Desktop\EVANGADI\phase 3\AmazonProject\Amazon-app\amazon-app\functions\package-lock.json changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\bahri\\OneDrive\\Desktop\\EVANGADI\\phase 3\\AmazonProject\\Amazon-app\\amazon-app\\functions\\package-lock.json changed, reloading triggers"}}
+[debug] [2024-01-02T17:10:50.947Z] Validating nodejs source
+[debug] [2024-01-02T17:10:58.091Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^14.9.0"
+  },
+  "private": true
+}
+[debug] [2024-01-02T17:10:58.092Z] Building nodejs source
+[debug] [2024-01-02T17:10:58.092Z] Failed to find version of module node: reached end of search path C:\Users\bahri\OneDrive\Desktop\EVANGADI\phase 3\AmazonProject\Amazon-app\amazon-app\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2024-01-02T17:10:58.096Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-01-02T17:10:58.121Z] Found firebase-functions binary at 'C:\Users\bahri\OneDrive\Desktop\EVANGADI\phase 3\AmazonProject\Amazon-app\amazon-app\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8649
+
+[error] node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::10000
+    at Server.setupListenHandle [as _listen2] (node:net:1817:16)
+    at listenInCluster (node:net:1865:12)
+    at Server.listen (node:net:1953:7)
+    at Function.listen (C:\Users\bahri\OneDrive\Desktop\EVANGADI\phase 3\AmazonProject\Amazon-app\amazon-app\functions\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (C:\Users\bahri\OneDrive\Desktop\EVANGADI\phase 3\AmazonProject\Amazon-app\amazon-app\functions\index.js:29:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1844:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 10000
+}
+
+Node.js v18.18.1
+
+[debug] [2024-01-02T17:10:59.999Z] Failed to call quitquitquit. This often means the server failed to start request to http://localhost:8649/__/quitquitquit failed, reason: connect ECONNREFUSED ::1:8649 {"message":"request to http://localhost:8649/__/quitquitquit failed, reason: connect ECONNREFUSED ::1:8649","type":"system","errno":"ECONNREFUSED","code":"ECONNREFUSED"}
+[error] !!  functions: Failed to load function definition from source: FetchError: request to http://127.0.0.1:8649/__/functions.yaml failed, reason: read ECONNRESET {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FetchError: request to http://127.0.0.1:8649/__/functions.yaml failed, reason: read ECONNRESET"}}
